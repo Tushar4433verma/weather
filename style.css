@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100vw;
+    /* background-color: #3498db; */
+    background-image: url(./noaa-99F4mC79j1I-unsplash.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    position: relative;
+    top:15rem;
+}
+
+.cloud  img{
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+}
+.under-search {
+    display: flex;
+    /* vertically */
+    align-items: center;
+    /* horizontally */
+    justify-content: center;
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.container #search{
+
+    padding: 12px;
+    width: 300px;
+    border-radius: 25px;
+    font-size: larger;
+    border: 2px solid #000000;
+    
+    /* box-shadow: 0px 0px 4px 5px skyblue; */
+}
+.container #search:hover{
+    box-shadow: 0px 0px 2px 2px aqua;
+    transform:translateY(-10px) ;
+}
+
+
